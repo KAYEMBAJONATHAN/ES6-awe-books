@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.nav__branding {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000;
+  padding: 25px;
+  margin: 15px;
+}
+
+.nav__items {
+  display: flex;
+  gap: 20px;
+}
+
+.time {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  border: 1px solid #000;
+  margin: 20px;
+  height: 450px;
+  overflow: scroll;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h3,
+p,
+.btn {
+  text-align: center;
+}
+
+.title {
+  padding: 10px;
+  width: 200px;
+}
+
+.author {
+  padding: 10px;
+  width: 200px;
+}
+
+.remove {
+  color: #f00;
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px #000;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.contact__header {
+  text-align: center;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__text {
+  margin: 15px 0;
+  font-size: 15px;
+  text-align: left;
+}
+
+.contact__info li {
+  list-style: inside;
+  font-size: 15px;
+}
+
+.footer {
+  display: flex;
+  border: 1px solid #000;
+  margin: 0 20px;
+  padding: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.content,
+.new-book-container,
+.contact {
+  position: relative;
+}
+
+.new-book-container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-btn {
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #fff;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}

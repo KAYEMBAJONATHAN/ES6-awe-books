@@ -1,0 +1,22 @@
+{
+  "name": "es6-awe-books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KAYEMBAJONATHAN/ES6-awe-books.git"
+  },
+  "author": "jonathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KAYEMBAJONATHAN/ES6-awe-books/issues"
+  },
+  "homepage": "https://github.com/KAYEMBAJONATHAN/ES6-awe-books#readme",
+  "dependencies": {
+    "luxon": "^3.3.0"
+  }
+}
