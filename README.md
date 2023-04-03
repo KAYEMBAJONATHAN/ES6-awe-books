@@ -67,7 +67,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/KAYEMBAJONATHAN/Awesome-modules.git
+Clone this repository to your desired folder: https://github.com/KAYEMBAJONATHAN/ES6-awe-books.git
 
 ### Install
 

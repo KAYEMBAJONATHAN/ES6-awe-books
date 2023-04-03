@@ -1,6 +1,6 @@
-import { DateTime } from './modules/luxon.js';
-import Book from './modules/user.js';
-import navBar from './modules/navigation.js';
+import { DateTime } from './module/luxon.js';
+import Book from './module/user.js';
+import navBar from './module/navigation.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   const book = new Book();
