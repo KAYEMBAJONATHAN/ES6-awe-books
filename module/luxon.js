@@ -1,6 +1,5 @@
+/* eslint-disable*/
 // these aren't really private, but nor are they really useful to document
-
-/* eslint-disable */
 
 /**
  * @private
@@ -4547,7 +4546,7 @@ function unitForToken(token, loc) {
           return intUnit(oneOrTwo);
         case "mm":
           return intUnit(two);
-        case 'm':
+        case "m":
           return intUnit(oneOrTwo);
         case "q":
           return intUnit(oneOrTwo);
@@ -7216,3 +7215,4 @@ function friendlyDateTime(dateTimeish) {
 const VERSION = "3.3.0";
 
 export { DateTime, Duration, FixedOffsetZone, IANAZone, Info, Interval, InvalidZone, Settings, SystemZone, VERSION, Zone };
+//# sourceMappingURL=luxon.js.map

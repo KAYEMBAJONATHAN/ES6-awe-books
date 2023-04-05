@@ -12,68 +12,53 @@
 
 <body>
  
-  <header class="header">
-    <nav class="navbar">
-        <a href="#" class="nav__branding">Awesome Books</a>
-        <ul class="nav__items">
-            <li id="home__li" class="nav__item__home">
-                <a href="#home">List</a>
-            </li>
-            <li id="add__book__li" class="nav__item__add__book">
-                <a href="#add__book">Add New</a>
-            </li>
-            <li id="contact__li" class="nav__item__contact">
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-
-<div class="time">
-    <p class="date"></p>
-</div>
-
-<main class="container">
-    <div class="content">
-        <article class="list-container" id="home">
-            <div class="title-container">
-                <h1 class="title-bar">All awesome books</h1>
-            </div>
-            <div class="book-list"><hr></div>
-            
-        </article><br><br>
-        
-    </div>
-    <div>
-        <article class="new-book-container" id="add__book">
-                <h2 >Add a New Book</h2>
-                    <form action="" class="add-form">
-                        <input type="text" id="title" class="title" placeholder="Title" required><br>
-                        <input type="text" id="author" class="author" placeholder="Author" required><br>
-                        <input type="submit" class="add-btn" value="Add">
-                    </form>
-         </article>
-    </div>
-    <section class="contact" id="contact">
-        <h2 class="contact__header">Contact Information</h2>
-        <p class="contact__text">If you have any questions or what to say "Hello" <br> You can reach us on:</p> 
-        <div>    
-        <ul class="contact__info">
-            <li>Jonathan</li>
-            <li>
-                <a href="https://github.com/KAYEMBAJONATHAN">Thank you</a>
-            </li>
-            <li>Pretoria, South Africa</li>
-        </ul>
-        <br>
-        </div>
-    </section>
-
-</main>
-
-    <footer class="footer">
-        <p class="footer__text">Copyright @copy 2023 Awesome Books</p>
-    </footer>
+    <header>
+        <nav class="nav-container">
+          <h1 class="nav-header">Awesome Books</h1>
+          <ul class="nav-menu">
+            <li class="menu-item" id="list-btn">List</li>
+            <li> | </li>
+            <li class="menu-item" id="add-btn">Add New</li>
+            <li> | </li>
+            <li class="menu-item" id="contact-btn">Contact</li>
+          </ul>
+        </nav>
+      </header>
+      <div class="date-container"></div>
+      <main class="main_container">
+        <section class="book-list-section">
+          <h2 class="main-header">All awesome Books</h2>
+          <div class="book-container" id="books_section">
+    
+          </div>
+        </section>
+    
+        <form action="#" class="book-form">
+          <h2 class="form_header">Add a new book</h2>
+          <input id="book-name" type="text" class="input_item" placeholder="Title"><br><br>
+          <input id="book-author" type="text" class="input_item" placeholder="Author"><br><br>
+          <button type="submit" id="add_book">Add</button>
+        </form>
+    
+        <section class="contact-section">
+          <h2>Contact Information</h2>
+          <div class="contact_details">
+                  <p>
+                    Do have any question or you just want to say "Hello"?<br>
+                    You can reach out to us!
+                  </p>
+                  <ul>
+                    <li>Our e-mail mail@email.com</li>
+                    <li>Our phone number 0043586534422 </li>
+                    <li>Our address Streetname 22, 84503 city, Country</li>
+                  </ul>
+          </div>
+        </section>
+      </main>
+    
+      <footer>
+        <h3>Copyright 2023</h2>
+      </footer>
     <script src="index.js" type="module"></script>
 </body>
 </html>
