@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -17,6 +19,10 @@ li {
   list-style: none;
 }
 
+html {
+  font-size: 82%;
+}
+
 .nav__branding {
   font-weight: bold;
   font-size: 25px;
@@ -26,7 +32,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid #000;
+  border: 1px solid black;
   padding: 25px;
   margin: 15px;
 }
@@ -50,7 +56,7 @@ li {
 }
 
 .book-list {
-  border: 1px solid #000;
+  border: 1px solid black;
   margin: 20px;
   height: 450px;
   overflow: scroll;
@@ -85,8 +91,8 @@ p,
 }
 
 .remove {
-  color: #f00;
-  border: 1px solid #000;
+  color: red;
+  border: 1px solid black;
   padding: 5px;
 }
 
@@ -96,7 +102,7 @@ p,
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  border-bottom: 1px #000;
+  border-bottom: 1px solid black;
 }
 
 .row {
@@ -126,7 +132,7 @@ p,
 
 .footer {
   display: flex;
-  border: 1px solid #000;
+  border: 1px solid black;
   margin: 0 20px;
   padding: 10px;
   font-size: 12px;
@@ -159,9 +165,9 @@ p,
 
 .add-btn {
   padding: 10px;
-  border: 1px solid #000;
-  background-color: #fff;
-  color: #000;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
   font-size: 12px;
   font-weight: 700;
   border-radius: 5px;

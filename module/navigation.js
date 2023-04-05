@@ -1,4 +1,5 @@
-export default () => {
+/* eslint-disable */
+export const navBar = () => {
   const home = document.getElementById('home__li');
   const addBook = document.getElementById('add__book__li');
   const contact = document.getElementById('contact__li');

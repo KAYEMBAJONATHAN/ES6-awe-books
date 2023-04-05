@@ -71,6 +71,7 @@ export default class Book {
     }
   }
 }
+
 const formBook = document.querySelector('.new-book-container');
 formBook.addEventListener('submit', (e) => {
   e.preventDefault();

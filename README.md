@@ -1,6 +1,5 @@
 # ES6-awe-books# Awesome-modules# Awesome_book
 
-
 <a name="Awesome Book"></a>
 <div align="center">
   <br/>
@@ -50,7 +49,7 @@ JAVASCRIPT
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://kayembajonathan.github.io/ES6-awe-books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,7 +66,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/KAYEMBAJONATHAN/Awesome-modules.git
+Clone this repository to your desired folder: https://github.com/KAYEMBAJONATHAN/ES6-awe-books.git
 
 ### Install
 
@@ -125,6 +124,6 @@ I would like to thank in advance. This is the first draft of this project. It wo
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/KAYEMBAJONATHAN/Awesome-modules.git/blob/navigation/LICENSE) licensed.
+This project is [MIT](https://github.com/KAYEMBAJONATHAN/ES6-awe-books.git/blob/navigation/LICENSE) licensed.
 
 
